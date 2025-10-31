@@ -1,1 +1,0 @@
-const imagem = document.getElementById("imagem");
