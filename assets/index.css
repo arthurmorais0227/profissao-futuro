@@ -126,6 +126,10 @@ header h1 {
     border-radius: 10px;
 }
 
+.fundo:hover {
+    box-shadow: 0px 0px 15px 5px #004A9F;
+}
+
 .sobre p {
     margin-bottom: 30px;
 }
@@ -211,7 +215,7 @@ header h1 {
     width: 100%;
     background-color: #87b0df;
     /*mudar a altura pra auto dps*/
-    height: 300px;
+    height: 350px;
     display: flex;
 }
 
@@ -220,6 +224,12 @@ header h1 {
     height: 100%;
     background-color: #004A9F;
     color: #f2f2f2;
+}
+
+.itens {
+    margin-top: px;
+    display: flex;
+    flex-direction: row;
 }
 
 .qualidades{
@@ -231,19 +241,21 @@ header h1 {
     color: #004A9F;
     border-bottom: 2px solid #004A9F;
     width: 800px;
+    margin-bottom: 70px;
 }
 
 .certificado h3 {
     color: #f2f2f2;
     border-bottom: 2px solid #ffffff;
     width: 800px;
+    margin-bottom: 40px
 }
 
 .qualidades h3, .certificado h3 {
     margin-top: 25px;
     margin-left: 50px;
     font-size: 35px;
-    margin-bottom: 70px;
+    
 }
 
 .qualidades p {
@@ -265,3 +277,34 @@ header h1 {
 .qualidades button:hover {
     background-color: #0163d3;
 }
+
+.competencia h2, .competencia p {
+    margin-left: 50px;
+}
+
+.competencia h2 {
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: #86b3e6;
+    height: 400px;
+}
+
+.contato {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.logos_numeros {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logos_numeros img{
+    width: 30px;
+}
+
