@@ -1,8 +1,20 @@
 console.log("JS carregado!");
 
-const box = document.getElementById("meuBox");
-const mensagem = document.getElementById("mensagem");
+const boxes = document.querySelectorAll(".box");
+const esconderBotao = document.getElementById("esconderTodas");
 
-box.addEventListener("click", () => {
-  mensagem.classList.toggle("hidden");
+boxes.forEach((box) => {
+  box.addEventListener("click", () => {
+    const mensagem = box.nextElementSibling;
+    mensagem.classList.toggle("hidden");
+  });
 });
+
+esconderBotao.addEventListener("click", () => {
+  const todasAsMensagens = document.querySelectorAll(".mensagem");
+
+  todasAsMensagens.forEach((mensagem) => {
+    mensagem.classList.add("hidden");
+  });
+});
+  

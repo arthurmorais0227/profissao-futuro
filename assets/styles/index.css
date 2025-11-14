@@ -1,332 +1,337 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    width: 100%;
-    height: 100vh;
-    background-color: white;
-    flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  flex-direction: column;
 }
 
 main {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 header {
-    display: flex;
-    background-color: #004A9F;
-    color: rgb(250, 250, 239);
-    height: 80px;
-    align-items: center;
-    position: relative;
-    justify-content: center;
+  display: flex;
+  background-color: #004a9f;
+  color: rgb(250, 250, 239);
+  height: 80px;
+  align-items: center;
+  position: relative;
+  justify-content: center;
 }
 
 header h1 {
-    position: relative;
+  position: relative;
 }
 
 .navegacao {
-    position: absolute;
-    right: 30px;
-    display: flex;
-    gap: 35px;
-    margin-right: 100px;
+  position: absolute;
+  right: 30px;
+  display: flex;
+  gap: 35px;
+  margin-right: 100px;
 }
 
 .navegacao a {
-    color: rgb(250, 250, 239);
-    text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
+  color: rgb(250, 250, 239);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
 }
 
 .navegacao a:hover {
-    color: #87b0df;
+  color: #87b0df;
 }
 
 .hero {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 50px;
-    width: 100%;
-    background-color: rgb(250, 250, 239);
-    height: 300px; 
-    border-radius: 10px;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+  align-items: center;
 }
 
 .vertentes {
-    display: flex;
-    background-color: #004A9F;
-    color: rgb(250, 250, 239);
-    height: 250px;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    border-radius: 10px;
-    overflow: hidden;
+  display: flex;
+  background-color: #004a9f;
+  color: rgb(250, 250, 239);
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
-.vertentes img { 
-    width: 170px;
-    height: 225px;
-    border-radius: 10px;
-    object-fit: cover;
-    transition: transform 0.7s ease;
- }
+.vertentes img {
+  width: 170px;
+  height: 225px;
+  border-radius: 10px;
+  object-fit: cover;
+  transition: transform 0.7s ease;
+}
 
 .vertentes img:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .imagem-inbrape {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
 .imagem-inbrape .img-ibp {
-    width: auto;
-    height: 200px;
+  width: auto;
+  height: 200px;
 }
 
 .mid-text {
-    margin-top: 100px;
-    width: 100%;
-    height: auto;
-    background-color: rgb(250, 250, 239);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 300px;
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 300px;
 }
 
 .sobre {
-    margin-top: 20px;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 600px;
-    text-align: left;
+  margin-top: 20px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  text-align: left;
 }
 
 .fundo {
-    margin-top: 100px;
-    background-color: #cecdcd;
-    width: 700px;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
+  margin-top: 100px;
+  background-color: #cecdcd;
+  width: 700px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
 }
 
 .fundo:hover {
-    box-shadow: 0px 0px 15px 5px #004A9F;
+  box-shadow: 0px 0px 15px 5px #004a9f;
 }
 
 .sobre p {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
-.sobre h1{
-    margin-bottom: 30px;
-    color: #004A9F;
+.sobre h1 {
+  margin-bottom: 30px;
+  color: #004a9f;
 }
 
-.especificacoes{
-    margin-top: 100px;
-    display: flex;
-    width: 500px;
-    height: 300px;
-    background-color:  #004A9F;
-    border-radius: 10px;
-    flex-direction: column;
-    gap: 20px;
-    text-align: center;
+.especificacoes {
+  margin-top: 100px;
+  display: flex;
+  width: 500px;
+  height: 300px;
+  background-color: #004a9f;
+  border-radius: 10px;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
 }
 
 .especificacoes h3 {
-    font-size: 30px;
-    margin-top: 15px;
-    color: rgb(250, 250, 239); 
+  font-size: 30px;
+  margin-top: 15px;
+  color: rgb(250, 250, 239);
 }
 
-.vantagens{
-    display: flex;
-    justify-content: top;
-    background-color: rgb(126, 228, 126);
-    width: 180px;
-    height: 195px;
-    border-radius: 10px;
-    transition: transform 0.4s ease;
-    flex-direction: column;
+.vantagens {
+  display: flex;
+  justify-content: top;
+  background-color: rgb(126, 228, 126);
+  width: 180px;
+  height: 195px;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+  flex-direction: column;
 }
 
 .vantagens:hover {
-    background-color: rgb(4, 165, 4);
-    transform: scale(1.1);
-    color: white;
+  background-color: rgb(4, 165, 4);
+  transform: scale(1.1);
+  color: white;
 }
 
-.vantagens h2, .desvantagens h2{
-    margin-top: 10px;
-    margin-bottom: 30px;
-    
+.vantagens h2,
+.desvantagens h2 {
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
-.vantagens p, .desvantagens p{
-    margin-bottom: 7px;
+.vantagens p,
+.desvantagens p {
+  margin-bottom: 7px;
 }
 
 .desvantagens {
-    display: flex;
-    justify-content: top;
-    background-color: rgb(252, 86, 86);
-    width: 180px;
-    height: 195px;
-    border-radius: 10px;
-    transition: transform 0.4s ease;
-    flex-direction: column;
+  display: flex;
+  justify-content: top;
+  background-color: rgb(252, 86, 86);
+  width: 180px;
+  height: 195px;
+  border-radius: 10px;
+  transition: transform 0.4s ease;
+  flex-direction: column;
 }
 
 .desvantagens:hover {
-    color: white;
-    background-color: rgb(250, 36, 36);
-    transform: scale(1.05);
+  color: white;
+  background-color: rgb(250, 36, 36);
+  transform: scale(1.05);
 }
 
 .especificacoes-vilain {
-    display: flex;
-    flex-direction: row; 
-    justify-content: space-around; 
-    align-items: center;
-    width: 100%;
-    margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .villain {
-    margin-top: 150px;
-    width: 100%;
-    background-color: #87b0df;
-    /*mudar a altura pra auto dps*/
-    height: 350px;
-    display: flex;
+  margin-top: 150px;
+  width: 100%;
+  background-color: #87b0df;
+  /*mudar a altura pra auto dps*/
+  height: 350px;
+  display: flex;
 }
 
 .certificado {
-    width: 50%;
-    height: 100%;
-    background-color: #004A9F;
-    color: #f2f2f2;
+  width: 50%;
+  height: 100%;
+  background-color: #004a9f;
+  color: #f2f2f2;
 }
 
 .itens {
-    margin-top: px;
-    display: flex;
-    flex-direction: row;
+  margin-top: px;
+  display: flex;
+  flex-direction: row;
 }
 
-.qualidades{
-    background-color: #cecdcd;
-    width: 50%;
+.qualidades {
+  background-color: #cecdcd;
+  width: 50%;
 }
 
 .qualidades h3 {
-    color: #004A9F;
-    border-bottom: 2px solid #004A9F;
-    width: 800px;
-    margin-bottom: 70px;
+  color: #004a9f;
+  border-bottom: 2px solid #004a9f;
+  width: 800px;
+  margin-bottom: 70px;
 }
 
 .certificado h3 {
-    color: #f2f2f2;
-    border-bottom: 2px solid #ffffff;
-    width: 800px;
-    margin-bottom: 40px
+  color: #f2f2f2;
+  border-bottom: 2px solid #ffffff;
+  width: 800px;
+  margin-bottom: 40px;
 }
 
-.qualidades h3, .certificado h3 {
-    margin-top: 25px;
-    margin-left: 50px;
-    font-size: 35px;
-    
+.qualidades h3,
+.certificado h3 {
+  margin-top: 25px;
+  margin-left: 50px;
+  font-size: 35px;
 }
 
 .qualidades p {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 .qualidades button {
-    margin-top: 45px;
-    margin-left: 50px;
-    border-radius: 10px;
-    height: 30px;
-    width: 150px;
-    background-color: #004A9F;
-    border: 2px solid  #012f64;
-    color: white;
-    transition: transform 0.4s ease;
+  margin-top: 45px;
+  margin-left: 50px;
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+  background-color: #004a9f;
+  border: 2px solid #012f64;
+  color: white;
+  transition: transform 0.4s ease;
 }
 
 .qualidades button:hover {
-    background-color: #0163d3;
+  background-color: #0163d3;
 }
 
-.competencia h2, .competencia p {
-    margin-left: 50px;
+.competencia h2,
+.competencia p {
+  margin-left: 50px;
 }
 
 .competencia h2 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-
 footer {
-    margin-top: 150px;
-    background: #138dbd;
-    background: linear-gradient(0deg,rgba(19, 141, 189, 1) 4%, rgba(63, 139, 186, 1) 22%, rgba(255, 255, 255, 1) 100%);
-    min-height: auto;
-    padding-bottom: 30px;
-    display: flex;
-    justify-content: space-around;
+  margin-top: 150px;
+  background: #004a9f;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 74, 159, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+
+  min-height: auto;
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .contato {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .logos_numeros {
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
-    flex-direction: column;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.logos_numeros img{
-    width: 30px;
+.logos_numeros img {
+  width: 30px;
 }
 
-.professor {  
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+.professor {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 .professor img {
-    width: 200px;
-    border-radius: 47%;
-    border: #012f64 dashed;
+  width: 200px;
+  border-radius: 47%;
+  border: #012f64 dashed;
 }

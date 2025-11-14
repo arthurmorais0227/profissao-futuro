@@ -1,41 +1,158 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entrevista</title>
+    <link rel="stylesheet" href="./../assets/styles/entrevista.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./../assets/styles/entrevista.css">
-</head>
-
-<body>
-
+  <body>
     <header>
-        <h1>Página sobre o entrevistado!</h1>
-        <div class="navegacao">
-            <a href="./pages/sobre.html">SOBRE</a>
-            <a href="./../pages/entrevista.html">ENTREVISTA</a>
-            <a href="./../index.html">HOME</a>
-        </div>
-
+      <h1 class="main_texto">Página da entrevista!</h1>
+      <div class="navegacao">
+        <a href="./sobre.html">SOBRE</a>
+        <a href="./../pages/entrevista.html">ENTREVISTA</a>
+        <a href="./../index.html">HOME</a>
+      </div>
     </header>
 
     <main>
+        <h1>Clique na pergunta para ver a resposta!</h1>
+        <button id="esconderTodas" class="esconder-botao">Esconder todas as respostas</button>
+      <div class="box">
+        <h1>Pergunta 1</h1>
+        <p>Por que escolheu essa profissão?</p>
+      </div>
+      <p class="mensagem">
+        Clayton: “Eu me considero uma pessoa bastante analítica, sempre atenta
+        aos detalhes e motivada por compreender como os dados podem gerar
+        soluções práticas. Essa profissão exige justamente essa habilidade:
+        utilizar as informações de forma estratégica para apoiar as tomadas de
+        decisão e otimizar os processos do dia a dia empresarial da Unilever.”
+      </p>
 
-        
-        <div id="meuBox" class="box">
-            <h1>Pergunta</h1>
-            <p>Por que escolheu essa profissão?</p>
-        </div>
+      <div class="box">
+        <h1>Pergunta 2</h1>
+        <p>Que pessoas ou situações o influenciaram a seguir tal profissão?</p>
+      </div>
+      <p class="mensagem">
+        Clayton: “A vida do mundo profissional me inspirou. Nenhuma pessoa
+        exerceu nenhum tipo de influência sobre minha tomada de decisão
+        profissional. Eu fiz faculdade e decidi dar um passo a mais na minha
+        carreira. A oportunidade apareceu, e eu juntei a fome com a vontade de
+        comer.”
+      </p>
 
-        <p id="mensagem" class="hidden">Clayton: “Eu me considero uma pessoa bastante analítica, sempre atenta aos
-            detalhes e motivada por compreender como os dados podem gerar soluções práticas. Essa profissão exige
-            justamente essa habilidade: utilizar as informações de forma estratégica para apoiar as tomadas de decisão e
-            otimizar os processos do dia a dia empresarial da Unilever.”</p>
+      <div class="box">
+        <h1>Pergunta 3</h1>
+        <p>Que escola teve de cursar para chegar a essa profissão?</p>
+      </div>
+      <p class="mensagem">
+        Clayton: “Ensino fundamental, ensino médio e ensino superior:
+        Administração Empresarial na UNIP.”
+      </p>
+      <div class="box">
+        <h1>Pergunta 4</h1>
+        <p>
+          Onde existem escolas para esses cursos e quais as matérias dos cursos?
+        </p>
+      </div>
+      <p class="mensagem">
+        Clayton: “A faculdade que eu cursei está disponível em várias regiões.
+        Já os cursos, não recordo muito bem, mas lembro que iam de humanas até
+        exatas, passando contabilidade, filosofia, estatística, marketing,
+        etc...”
+      </p>
+      <div class="box">
+        <h1>Pergunta 5</h1>
+        <p>O que recomendaria fazer a quem desejasse seguir essa profissão?</p>
+      </div>
+      <p class="mensagem">
+        Clayton: “É importante se empenhar, estudar bastante, ser curioso e
+        aprender sobre o funcionamento da fábrica. Também é essencial se
+        aperfeiçoar cada vez mais na área de estatística e buscar a tecnologia
+        para automatizar processos industriais para conseguir desempenhar um bom
+        trabalho.”
+      </p>
+      <div class="box">
+        <h1>Pergunta 6</h1>
+        <p>Quais as condições de ingresso nessas escolas?</p>
+      </div>
+      <p class="mensagem">
+        Clayton: “Em 2005, o ingresso na UNIP ocorria principalmente por meio do
+        vestibular tradicional, que era a principal forma de seleção de novos
+        alunos. Naquele período, os candidatos precisavam se inscrever e
+        realizar as provas presenciais, que avaliavam conhecimentos gerais e
+        específicos de acordo com o curso desejado.”
+      </p>
+      <div class="box">
+        <h1>Pergunta 7</h1>
+        <p>
+          Quantos anos são necessários para se concluir esse curso e conseguir
+          uma boa colocação profissional?
+        </p>
+      </div>
+      <p class="mensagem">
+        Clayton: “A faculdade costuma durar em torno de 4 a 5 anos, dependendo
+        do seu empenho. Na empresa, a situação pode variar: você pode começar já
+        na função desejada ou iniciar em um cargo mais baixo e precisar subir
+        alguns degraus até alcançar a posição que almeja.”
+      </p>
+      <div class="box">
+        <h1>Pergunta 8</h1>
+        <p>
+          Quais são as etapas porque se tem de passar para ser um profissional
+          como você?
+        </p>
+      </div>
+      <p class="mensagem">
+        Clayton: “Como mencionei, é importante ser curioso, interessado,
+        conhecer bem a fábrica e fazer uma boa faculdade. Na maioria das vezes,
+        você pode começar em cargos como analista ou técnico assistente e, com
+        experiência, evoluir para a posição de coordenador.”
+      </p>
+      <div class="box">
+        <h1>Pergunta 9</h1>
+        <p>Qual a faixa salarial que um profissional dessa área pode obter?</p>
+      </div>
+      <p class="mensagem">
+        Clayton: “O salário varia conforme a empresa, a experiência do
+        profissional e a região, mas, em termos médios, costuma ficar entre
+        R$8.000 e R$15.000.”
+      </p>
     </main>
 
+    <footer>
+        <div class="professor">
+            <h1>Professor Eduardo</h1>
+            <img src="/assets/img/eduardo.jpg" alt="eduardo">
+        </div>
+        <div class="contato">
+            <h1>Me conheça melhor!</h1>
+            <div class="logos_numeros">
+                <a href="https://www.linkedin.com/in/arthurmorais0227/" target="_blank"><img
+                        src="./../assets/img/linkedin.png" alt="logo git hub"></a>
+                <p>arthurmorais0227</p>
+            </div>
+
+            <div class="logos_numeros">
+                <a href="https://www.instagram.com/arthurrr_mn/" target="_blank"><img
+                        src="./../assets/img/instagram.png" alt="logo git hub"></a>
+                <p>@arthurrr_mn</p>
+            </div>
+            <div class="logos_numeros">
+                <a href="https://github.com/arthurmorais0227" target="_blank"><img src="./../assets/img/github.png"
+                        alt="logo git hub"></a>
+                <p>arthurmorais0227</p>
+            </div>
+        </div>
+        <div class="professor">
+            <h1>Professora Ivonete</h1>
+            <img src="/assets/img/ivonete.jpg" alt="ivonete">
+        </div>
+    </footer>
 
     <script src="../assets/js/script.js"></script>
-</body>
-
+  </body>
 </html>
